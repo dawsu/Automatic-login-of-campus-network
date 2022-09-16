@@ -16,7 +16,7 @@
 cd c:\CampusNetwork
 start 20001001-123456.py
 
-2.你的文件在f非C盘，如D盘CampusNetwork文件夹
+2.你的文件在非C盘，如D盘CampusNetwork文件夹
 创建文本文件输入
 d: 
 cd D:\CampusNetwork
