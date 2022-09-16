@@ -2,6 +2,15 @@
 校园网自动登录（石家庄铁道大学本部）
 
 需要python，自行安装
+用到的库
+import os
+import uuid
+import time
+import requests
+import socket
+from json import loads
+from urllib import request
+大部分都自带，缺的自己pip吧
 
 
 修改py文件的名称为你的校园网账号-密码，例如 20001001-123456.py
