@@ -14,7 +14,7 @@ headers = {
 def automatic_logon(userid, passwd):
     net_request_no1 = request.urlopen('http://1.1.1.1/', timeout=2)
     url = net_request_no1.geturl()
-    if not url.find("logout.html"):
+    if url.find("logout.html") == -1:
         net_request_no2 = request.urlopen('http://2.2.2.2/')
         url_str = net_request_no2.geturl()[32:]
         net_request_no3 = requests.get(
